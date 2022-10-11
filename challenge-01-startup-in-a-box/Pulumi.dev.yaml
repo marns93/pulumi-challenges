@@ -1,0 +1,6 @@
+config:
+  aws:profile: YOUR_AWS_PROFILE
+  aws:region: eu-central-1
+  checkly:accountId: YourAccountID
+  checkly:apiKey:
+    secure: YourApiKey
