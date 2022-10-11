@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "pulumi-challanges"
+version = "0.0.1"
+description = ""
+authors = ["Marcel Arns <marcel.arns@moneymeets.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+requests = "*"
+
+dataclasses-json = "*"
+pulumi = ">=3.0.0,<4.0.0"
+pulumi_aws = ">=5.0.0,<6.0.0"
+pulumi-aws-native = "*"
+pulumi-checkly = "*"
+
+[tool.poetry.dev-dependencies]
+add-trailing-comma = "*"
+black = "*"
+flake8 = "*"
+flake8-black = "*"
+flake8-isort = "*"
+flake8-quotes = "*"
+flake8-coding = "*"
+isort = { extras = ["pyproject"], version = "*" }
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+known_third_party = ["pulumi"]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
