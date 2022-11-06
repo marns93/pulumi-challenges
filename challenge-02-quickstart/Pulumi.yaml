@@ -1,0 +1,3 @@
+name: challenge-02-quickstart
+description: A serverless app on AWS API Gateway and Lambda
+runtime: python

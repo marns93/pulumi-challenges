@@ -1,0 +1,8 @@
+{
+  "pulumi-challenge-swag": {
+    "name": "<your name>",
+    "email": "<your email>",
+    "address": "<your address>",
+    "size": "<one of XS, S, M, L, XL>"
+  }
+}
