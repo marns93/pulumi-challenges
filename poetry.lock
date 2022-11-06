@@ -351,6 +351,20 @@ pulumi = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
 
 [[package]]
+name = "pulumi-aws-apigateway"
+version = "0.0.11"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+parver = ">=0.2.1"
+pulumi = ">=3.0.0,<4.0.0"
+pulumi-aws = ">=5.0.0,<6.0.0"
+semver = ">=2.8.1"
+
+[[package]]
 name = "pulumi-aws-native"
 version = "0.40.2"
 description = "A native Pulumi package for creating and managing Amazon Web Services (AWS) resources."
@@ -361,6 +375,21 @@ python-versions = "*"
 [package.dependencies]
 parver = ">=0.2.1"
 pulumi = ">=3.0.0,<4.0.0"
+semver = ">=2.8.1"
+
+[[package]]
+name = "pulumi-awsx"
+version = "1.0.0b11"
+description = "Pulumi Amazon Web Services (AWS) AWSX Components."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+parver = ">=0.2.1"
+pulumi = ">=3.0.0,<4.0.0"
+pulumi-aws = ">=5.3.0,<6.0.0"
+pulumi-docker = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
 
 [[package]]
@@ -375,6 +404,32 @@ python-versions = "*"
 parver = ">=0.2.1"
 pulumi = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
+
+[[package]]
+name = "pulumi-docker"
+version = "3.5.0"
+description = "A Pulumi package for interacting with Docker in Pulumi programs"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+parver = ">=0.2.1"
+pulumi = ">=3.0.0,<4.0.0"
+semver = ">=2.8.1"
+
+[[package]]
+name = "pulumi-policy"
+version = "1.5.0"
+description = "Pulumi's Policy Python SDK"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+grpcio = ">=1.9.1"
+protobuf = ">=3.6.0"
+pulumi = ">=3.0.0,<4.0.0"
 
 [[package]]
 name = "pycodestyle"
@@ -497,7 +552,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "7fcc1994fbbcc8882a8844d4d92c39458c5fd2c279ad16624fccb52318fd317c"
+content-hash = "331e2c0125c8219cc39618842c43a1eb93df93a272b0d01f942d998e9ed5b2d3"
 
 [metadata.files]
 add-trailing-comma = [
@@ -679,11 +734,23 @@ pulumi = [
 pulumi-aws = [
     {file = "pulumi_aws-5.19.0.tar.gz", hash = "sha256:b02781b9aff97fbc6dc876df489e1cd1250ec5a8aa07ec341e1a7bdf6c587ebd"},
 ]
+pulumi-aws-apigateway = [
+    {file = "pulumi_aws_apigateway-0.0.11.tar.gz", hash = "sha256:ade14f5f3e5afca1e9e013b563c6fb413767cf801fd07074348b45d2733aa8ee"},
+]
 pulumi-aws-native = [
     {file = "pulumi_aws_native-0.40.2.tar.gz", hash = "sha256:0b39b5cb9d6cda876f646e0e4ff96329089b61f2c04ca4c0782ed69c003be9b1"},
 ]
+pulumi-awsx = [
+    {file = "pulumi_awsx-1.0.0b11.tar.gz", hash = "sha256:edc382d520d4556938d73fe518b5dbf32f9a5f7d557cba1ac285a8dc21ab8078"},
+]
 pulumi-checkly = [
     {file = "pulumi_checkly-1.1.2.tar.gz", hash = "sha256:48b80413bf6e7a5f60d4ea05ec3e0d52ccea492c20b9fcd59ec132e20810ac96"},
+]
+pulumi-docker = [
+    {file = "pulumi_docker-3.5.0.tar.gz", hash = "sha256:26e40263d576ce336e87af1cfd6df27b88c58adc2fa3f076b2664af56ed0f16d"},
+]
+pulumi-policy = [
+    {file = "pulumi_policy-1.5.0-py2.py3-none-any.whl", hash = "sha256:ea74af5eb3a954049ef4e5a8af6c7c1ea73bdc4f9663671d0bb0aa953039c1be"},
 ]
 pycodestyle = [
     {file = "pycodestyle-2.9.1-py2.py3-none-any.whl", hash = "sha256:d1735fc58b418fd7c5f658d28d943854f8a849b01a5d0a1e6f3f3fdd0166804b"},
