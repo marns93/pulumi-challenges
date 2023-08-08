@@ -18,6 +18,7 @@ pulumi-awsx = "*"
 pulumi-checkly = "*"
 pulumi-policy = "*"
 
+
 [tool.poetry.dev-dependencies]
 add-trailing-comma = "*"
 black = "*"
