@@ -620,12 +620,12 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-awsx"
-version = "1.0.5"
+version = "1.0.6"
 description = "Pulumi Amazon Web Services (AWS) AWSX Components."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pulumi_awsx-1.0.5.tar.gz", hash = "sha256:0b807d5a7a217fa3935ed508e82fb07a9e9ef1f35115a87b1cb981d0c6f62194"},
+    {file = "pulumi_awsx-1.0.6.tar.gz", hash = "sha256:53d2e359f395d242c6a908f6294f3ba2451f0fa814f542708ee560c51510986f"},
 ]
 
 [package.dependencies]
