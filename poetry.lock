@@ -667,18 +667,18 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-policy"
-version = "1.7.0"
+version = "1.12.0"
 description = "Pulumi's Policy Python SDK"
 optional = false
 python-versions = "*"
 files = [
-    {file = "pulumi_policy-1.7.0-py2.py3-none-any.whl", hash = "sha256:c82ba7bf535245eda78e40a11b6764788d61f090cceeb43ee07ae9fa6cd8d477"},
+    {file = "pulumi_policy-1.12.0-py2.py3-none-any.whl", hash = "sha256:f7c1f1376b05c14fe9dcaa81b8063c0b196427c5d9337e1733573cc96be3d2ce"},
 ]
 
 [package.dependencies]
-grpcio = ">=1.9.1"
-protobuf = ">=3.6.0"
-pulumi = ">=3.0.0,<4.0.0"
+grpcio = ">=1.60.1,<1.61.0"
+protobuf = ">=4.21,<5.0"
+pulumi = ">=3.88.0,<4.0.0"
 
 [[package]]
 name = "pycodestyle"
