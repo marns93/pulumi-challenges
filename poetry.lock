@@ -668,21 +668,20 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-aws-native"
-version = "1.0.0"
+version = "1.2.0"
 description = "A native Pulumi package for creating and managing Amazon Web Services (AWS) resources."
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "pulumi_aws_native-1.0.0-py3-none-any.whl", hash = "sha256:cde12900c00eada70e3c672dd13c728943d248fc88484a7686f304c0a8740a13"},
-    {file = "pulumi_aws_native-1.0.0.tar.gz", hash = "sha256:1dcfb0b291b2462a3166114a1e1aa3b3d6cf59c9c6a03e47b1e5c05faeba57fe"},
+    {file = "pulumi_aws_native-1.2.0-py3-none-any.whl", hash = "sha256:0c71c79da42f0c9f64ac0cb5cd880f87833874bfd55887889c09fa5ce2a20a2b"},
+    {file = "pulumi_aws_native-1.2.0.tar.gz", hash = "sha256:555e224644132b62137113864db9d21736cc2de468f1bb28cbc3aa80e0d0ea09"},
 ]
 
 [package.dependencies]
 parver = ">=0.2.1"
 pulumi = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
-typing-extensions = {version = ">=4.11", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "pulumi-awsx"
