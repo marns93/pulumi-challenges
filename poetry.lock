@@ -703,21 +703,21 @@ semver = ">=2.8.1"
 
 [[package]]
 name = "pulumi-checkly"
-version = "2.1.1"
+version = "2.7.0"
 description = "A Pulumi package for creating and managing Checkly monitoring resources."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "pulumi_checkly-2.1.1-py3-none-any.whl", hash = "sha256:40095da702dcb4db2e57b18bd2dd5e5ec2c7dfeba04e98adebb7daa2ede67f07"},
-    {file = "pulumi_checkly-2.1.1.tar.gz", hash = "sha256:b348ad94ed807b4133ec0424e1a4f2d6d112630a0becdbef0e520b8fb00af53e"},
+    {file = "pulumi_checkly-2.7.0-py3-none-any.whl", hash = "sha256:0bf5f52fae28009e0e936a9cfda1f2b9226950bb812b1e26c43dbef579df2db4"},
+    {file = "pulumi_checkly-2.7.0.tar.gz", hash = "sha256:d2570e680f01ca6209b223f2898d50ecc3bcf51ee986a18ac0c5cc7758f69306"},
 ]
 
 [package.dependencies]
 parver = ">=0.2.1"
 pulumi = ">=3.0.0,<4.0.0"
 semver = ">=2.8.1"
-typing-extensions = {version = ">=4.11", markers = "python_version < \"3.11\""}
+typing-extensions = {version = ">=4.11,<5", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "pulumi-docker"
